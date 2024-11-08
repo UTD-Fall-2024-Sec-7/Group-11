@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">YOUR LOGO</div>
+        <nav>
+            <a href="events.html">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <h1>Event Information</h1>
+        <div id="eventList"></div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        Footer
+    </footer>
+
+    <script>
+        // Retrieve events from local storage
+        const events = JSON.parse(localStorage.getItem('events')) || [];
+
+        // Check if there are events to display
+        if (events.length > 0) {
+            const eventList = document.getElementById('eventList');
+            events.forEach((event, index) => {
+                // Create a div for each event
+                const eventDiv = document.createElement('div');
+                eventDiv.innerHTML = `
+                    <h3>Event ${index + 1}</h3>
+                    <p><strong>Event Title:</strong> ${event.title}</p>
+                    <p><strong>Date and Time:</strong> ${event.datetime}</p>
+                    <p><strong>Event Information:</strong> ${event.info}</p>
+                    <p><strong>Location:</strong> ${event.location}</p>
+                    <hr>
+                `;
+                eventList.appendChild(eventDiv);
+            });
+        } else {
+            document.getElementById('eventList').innerText = "No events found.";
+        }
+    </script>
+</body>
+</html>
