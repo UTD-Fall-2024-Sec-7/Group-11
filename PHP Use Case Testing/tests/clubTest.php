@@ -1,7 +1,6 @@
 <?php
 class ClubTest extends \PHPUnit\Framework\TestCase
 {
-
     private $club1;
     private $club2;
     private $user1;

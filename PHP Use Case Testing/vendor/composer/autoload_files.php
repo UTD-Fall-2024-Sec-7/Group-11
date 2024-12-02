@@ -9,4 +9,6 @@ return array(
     '6124b4c8570aa390c21fafd04a26c69f' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
     'ec07570ca5a812141189b1fa81503674' => $vendorDir . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
     'ac0b0c72249aad82e4bcbed7c1f4a509' => $baseDir . '/club.php',
+    '6e37a815a4051130d515d50ad26c73f3' => $baseDir . '/eventSearcher.php',
+    '40b33a20baca480584b4c62686495de7' => $baseDir . '/memberSearcher.php',
 );

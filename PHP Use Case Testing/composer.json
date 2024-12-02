@@ -4,7 +4,9 @@
     },
     "autoload": {
         "files": [
-            "club.php"
+            "club.php",
+            "eventSearcher.php",
+            "memberSearcher.php"
         ]
     }
 }

@@ -10,6 +10,8 @@ class ComposerStaticInitfbee484fbcb98ba45566f17e8eb69e9b
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
         'ac0b0c72249aad82e4bcbed7c1f4a509' => __DIR__ . '/../..' . '/club.php',
+        '6e37a815a4051130d515d50ad26c73f3' => __DIR__ . '/../..' . '/eventSearcher.php',
+        '40b33a20baca480584b4c62686495de7' => __DIR__ . '/../..' . '/memberSearcher.php',
     );
 
     public static $prefixLengthsPsr4 = array (
