@@ -2,5 +2,6 @@
 
 Connect, Collaborate, Create
 
-Instructions: Place in the htdocs folder within XAMPP and start the Apache & MySQL processes. 
+Instructions: Place in the htdocs folder within XAMPP and start the Apache & MySQL processes.
+
 ```localhost/hubclub/login.html```
